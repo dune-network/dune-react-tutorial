@@ -7,28 +7,28 @@ module.exports = {
   networks: {
     development: {
       host: "http://localhost",
-      port: 8732,
+      port: 8733,
       network_id: "*",
       secretKey: alice.sk,
-      type: "tezos"
+      type: "dune"
     },
-    babylonnet: {
-      host: "https://babylonnet.tezos.org.ua",
+    mainnet: {
+      host: "https://mainnet-node.dunscan.io",
       network_id: "*",
       secret,
       mnemonic,
       password,
       email,
-      type: "tezos"
+      type: "dune"
     },
-    carthagenet: {
-      host: "https://carthagenet.tezos.org.ua",
+    testnet: {
+      host: "https://testnet-node.dunscan.io",
       network_id: "*",
       secret,
       mnemonic,
       password,
       email,
-      type: "tezos"
+      type: "dune"
     }
   }
 };

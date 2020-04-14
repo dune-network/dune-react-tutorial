@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Tezos } from "@taquito/taquito";
-import { TezBridgeSigner } from "@taquito/tezbridge-signer";
+import { Tezos } from "@dune-network/taquito";
+import { TezBridgeSigner } from "@dune-network/tezbridge-signer";
 import Menu from "./Menu";
 import "./App.css";
 import "./bulma.css";
